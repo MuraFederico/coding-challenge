@@ -1,0 +1,90 @@
+*{
+  /* box-sizing: border-box; */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(immagini/sfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+.main_container{
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-top: 90px;
+  /* padding-left: 120px; */
+  background: rgba(0 , 0, 0, 0.6);
+  height: 850px;
+  width: 1400px;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo>img{
+  height: auto;
+  width: 250px;
+
+}
+
+.slogan{
+  color: lime;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 120px;
+  background-color: lime;
+  width: 80%;
+  height: 45px;
+}
+
+.check{
+    margin-left: 120px;
+}
+
+.monopattini > h1{
+  display: inline-block;
+  font-size: 25px;
+  color: white;
+}
+
+.monopattini > p{
+  margin-left: 120px;
+  color: white;
+  margin-top: 0px;
+}
+
+.medium_charge{
+  margin-left: 120px;
+  width: 300px;
+  height: 20px;
+  background-color: gold;
+  border-radius: 8px;
+}
+
+.high_charge{
+  margin-left: 120px;
+  width: 500px;
+  height: 20px;
+  background-color: green;
+  border-radius: 8px;
+}
+
+.low_charge{
+  margin-left: 120px;
+  width: 150px;
+  height: 20px;
+  background-color: red;
+  border-radius: 8px;
+}
